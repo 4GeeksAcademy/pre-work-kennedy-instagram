@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    background: lightgray;
+}
+.flex_container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box{
+    height:500px;
+    min-width:500px;
+    float: left;
+}
+.one{
+    background: lightcoral;
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+}
+
+.two{
+    background: lightblue;
+}
+
+.three{
+    background: lightgoldenrodyellow;
+}
