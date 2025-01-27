@@ -1,28 +1,85 @@
-.flex-container{
-    display: flex;
-    background: lightgray;
+body {
+    background-color: lightgray;
 }
-.flex_container:after{
+
+.container{
+    display: flex;
+    width: 600px;
+	margin:auto;
+    margin-bottom: 80px;
+}
+.container:after{
     content: "";
     display: block;
     clear: both;
 }
+.BreatheCode{
+	border-bottom: 1px;
+	border-color: #edeeee;
+	background: white;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+
+.BreatheCode > div{
+	width: 600px;
+	margin: auto;
+}
+.box > header {
+
+    justify-content: space-between;
+    padding-left: 4px;
+    align-items: center;
+    height: 40px;
+    width: 500px;
+    margin-inline: auto;
+}
+
+.post-title {
+    float: left;
+    padding-left: 10px;
+}
+.post-date {
+    float: right;
+    padding-right: 10px;
+    color: gray;
+}
+
+.post-image > img {
+
+    width: 600px;
+    height: auto;
+    margin-left: 0px;
+}
+
+.comments {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .box{
-    height:500px;
+    height:400px;
     min-width:500px;
     float: left;
 }
-.one{
-    background: lightcoral;
+
+.box-one {
+    background: white;
     border-width: 10px;
     border-color: black;
-    display: flex;
+    margin: auto;
 }
 
-.two{
-    background: lightblue;
+.box-two{
+    background: white;
+    border-width: 10px;
+    border-color: black;
+    margin: auto; 
 }
 
-.three{
-    background: lightgoldenrodyellow;
+.box-three{
+    background: white;
+    border-width: 10px;
+    border-color: black;
+    margin: auto; 
 }
